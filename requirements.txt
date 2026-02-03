@@ -16,3 +16,7 @@ pycocotools>=2.0.6
 
 # Utilities
 tqdm>=4.64.0
+
+# Visualization
+graphviz>=0.20.0
+torchviz>=0.0.2
