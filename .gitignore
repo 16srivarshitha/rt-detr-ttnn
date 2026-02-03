@@ -25,13 +25,9 @@ data/*
 
 # IDE
 .vscode/
-.idea/
-*.swp
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Model outputs
-outputs/
-logs/
+.cache/
+checkpoints/
+*.weights
+*.ckpt
+# Reference implementations (cloned separately)
+reference/RT-DETR/

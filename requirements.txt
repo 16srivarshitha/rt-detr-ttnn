@@ -1,0 +1,18 @@
+# PyTorch
+torch>=2.0.0
+torchvision>=0.15.0
+
+# RT-DETR dependencies
+PyYAML>=6.0
+Pillow>=9.0.0
+numpy>=1.21.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Model evaluation
+pycocotools>=2.0.6
+
+# Utilities
+tqdm>=4.64.0
