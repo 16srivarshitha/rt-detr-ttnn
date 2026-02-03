@@ -14,3 +14,5 @@ build/
 checkpoints/
 *.weights
 *.ckpt
+# Reference implementations (cloned separately)
+reference/RT-DETR/
