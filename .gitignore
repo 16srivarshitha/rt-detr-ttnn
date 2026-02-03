@@ -1,14 +1,29 @@
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
+*.py[cod]
+*$py.class
 *.so
-*.egg
+.Python
+env/
+venv/
 *.egg-info/
 dist/
 build/
-*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Weights
+weights/*.pth
+weights/*.pt
+weights/*.ckpt
+!weights/.gitkeep
+
+# Data
+data/*
+!data/.gitkeep
+
+# IDE
 .vscode/
 .cache/
 checkpoints/
