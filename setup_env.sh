@@ -1,7 +1,17 @@
 #!/bin/bash
-export TT_METAL_HOME=/root/tt-metal
-export PYTHONPATH=/root/tt-metal:$PYTHONPATH
-export ARCH_NAME=wormhole_b0
-export LD_LIBRARY_PATH=/root/tt-metal/build/lib:$LD_LIBRARY_PATH
-export TT_METAL_SKIP_HUGEPAGE_CHECK=1
-export TT_METAL_SINGLE_CHIP=1
+
+echo "RT-DETR TTNN Development Environment"
+
+echo "IMPORTANT: Use system Python3, not venv"
+echo "TTNN and PyTorch are installed globally"
+
+echo ""
+
+echo "Usage:"
+
+echo "  export PYTHONPATH=/usr/local/lib/python3.10/dist-packages:\$PYTHONPATH"
+
+echo "  python3 your_script.py"
+
+echo ""
+
